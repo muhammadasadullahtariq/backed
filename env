@@ -1,0 +1,12 @@
+PORT=5000
+
+MONGODB_URL=mongodb://127.0.0.1:27017/karobarimarkazdbv2
+
+DB_NAME=karobarimarkazdb-v2
+DB_BACKUP_PATH=/root/db-backups-dev-v2/
+DB_BACKKUP_DESTINATION=db-backups-dev-v2/
+
+JWT_SECRET=2217b5cb38984e2a3da553694282c65165a93a90b2f2f16a46c8f7f7f5f0093f
+JWT_TIMEOUT_DURATION="2 hours"
+
+PRODUCT_IMAGE_ENDPOINT=https://api.karobarimarkaz.tech/v1/products/images/
